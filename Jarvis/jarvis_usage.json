@@ -1,0 +1,217 @@
+{
+  "total_calls": 41,
+  "total_tokens": 56565,
+  "models": {
+    "llama-3.3-70b-versatile": {
+      "calls": 41,
+      "tokens": 56565
+    }
+  },
+  "history": [
+    {
+      "timestamp": "2026-01-22T22:38:16.016942",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1026
+    },
+    {
+      "timestamp": "2026-01-22T22:38:32.330841",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1086
+    },
+    {
+      "timestamp": "2026-01-22T22:39:06.434151",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1131
+    },
+    {
+      "timestamp": "2026-01-22T22:39:06.729353",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1223
+    },
+    {
+      "timestamp": "2026-01-22T22:39:30.923972",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1200
+    },
+    {
+      "timestamp": "2026-01-22T22:39:32.291876",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1749
+    },
+    {
+      "timestamp": "2026-01-22T22:39:53.395925",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1269
+    },
+    {
+      "timestamp": "2026-01-22T22:40:16.590772",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1316
+    },
+    {
+      "timestamp": "2026-01-22T22:40:18.342241",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1956
+    },
+    {
+      "timestamp": "2026-01-22T22:40:51.601840",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1382
+    },
+    {
+      "timestamp": "2026-01-22T22:40:53.149746",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1954
+    },
+    {
+      "timestamp": "2026-01-22T22:41:15.176369",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1437
+    },
+    {
+      "timestamp": "2026-01-22T22:41:16.783538",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1996
+    },
+    {
+      "timestamp": "2026-01-22T22:42:11.258152",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1492
+    },
+    {
+      "timestamp": "2026-01-22T22:42:11.682063",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1560
+    },
+    {
+      "timestamp": "2026-01-22T22:42:33.326808",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1526
+    },
+    {
+      "timestamp": "2026-01-22T22:42:33.585301",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1594
+    },
+    {
+      "timestamp": "2026-01-22T22:43:01.844360",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1575
+    },
+    {
+      "timestamp": "2026-01-22T22:43:02.127964",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1644
+    },
+    {
+      "timestamp": "2026-01-22T22:46:37.592972",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1608
+    },
+    {
+      "timestamp": "2026-01-22T22:46:37.890510",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1706
+    },
+    {
+      "timestamp": "2026-01-22T22:46:52.281876",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1650
+    },
+    {
+      "timestamp": "2026-01-22T22:46:52.664770",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1711
+    },
+    {
+      "timestamp": "2026-01-22T22:47:16.791522",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1697
+    },
+    {
+      "timestamp": "2026-01-22T22:47:17.230268",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1766
+    },
+    {
+      "timestamp": "2026-01-22T23:03:22.102180",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1023
+    },
+    {
+      "timestamp": "2026-01-22T23:03:22.489368",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1091
+    },
+    {
+      "timestamp": "2026-01-22T23:03:37.282048",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1059
+    },
+    {
+      "timestamp": "2026-01-22T23:03:37.805577",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1135
+    },
+    {
+      "timestamp": "2026-01-22T23:04:08.290015",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1077
+    },
+    {
+      "timestamp": "2026-01-22T23:04:08.590463",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1149
+    },
+    {
+      "timestamp": "2026-05-22T15:13:03.745691",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1020
+    },
+    {
+      "timestamp": "2026-05-22T15:13:04.422256",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1089
+    },
+    {
+      "timestamp": "2026-05-22T15:14:22.264264",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1053
+    },
+    {
+      "timestamp": "2026-05-22T15:14:22.534492",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1113
+    },
+    {
+      "timestamp": "2026-05-22T15:15:22.875214",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1081
+    },
+    {
+      "timestamp": "2026-05-22T15:15:24.079748",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1139
+    },
+    {
+      "timestamp": "2026-05-22T15:18:07.145053",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1104
+    },
+    {
+      "timestamp": "2026-05-22T15:18:07.555407",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1826
+    },
+    {
+      "timestamp": "2026-05-22T15:19:00.476089",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1137
+    },
+    {
+      "timestamp": "2026-05-22T15:19:00.908698",
+      "model": "llama-3.3-70b-versatile",
+      "tokens": 1215
+    }
+  ]
+}
