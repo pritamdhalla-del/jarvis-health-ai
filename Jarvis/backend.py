@@ -1,11 +1,11 @@
 from fastapi import FastAPI
-from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
 from agent import run_agent
 
 app = FastAPI()
 
-# Allow frontend connection
+# CORS FIX FOR VERCEL FRONTEND
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -14,7 +14,12 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Chat API
+# ROOT API
+@app.get("/")
+def root():
+    return {"message": "JARVIS Backend Running"}
+
+# CHAT API
 @app.get("/chat")
 def chat(query: str):
 
@@ -23,13 +28,13 @@ def chat(query: str):
     return {
         "response": response
     }
-@app.get("/download")
-def download_file():
 
-    path = "jarvis_report.docx"
+# DOWNLOAD DOCUMENT API
+@app.get("/download/{filename}")
+def download_file(filename: str):
 
     return FileResponse(
-        path,
-        media_type='application/vnd.openxmlformats-officedocument.wordprocessingml.document',
-        filename="jarvis_report.docx"
+        path=filename,
+        filename=filename,
+        media_type='application/vnd.openxmlformats-officedocument.wordprocessingml.document'
     )
