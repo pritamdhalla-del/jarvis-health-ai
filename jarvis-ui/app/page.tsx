@@ -128,7 +128,7 @@ export default function Home() {
     try {
 
       const response = await fetch(
-        `http://127.0.0.1:8000/chat?query=${encodeURIComponent(userMessage)}`
+        `delightful-cooperation-production-8f2f.up.railway.app}`
       );
 
       const data = await response.json();
